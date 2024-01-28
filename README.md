@@ -2,7 +2,7 @@
 
 Dotfiles of the Ubuntu user, by the Ubuntu user, for the Ubuntu user.
 
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/logo.png)
+![](https://github.com/ymgn-dev/dotfiles-for-wsl/blob/main/resources/logo.png)
 
 ## Requirements
 
@@ -10,7 +10,7 @@ Dotfiles of the Ubuntu user, by the Ubuntu user, for the Ubuntu user.
 
 ```shell
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl git
+sudo apt install -y curl git unzip
 ```
 
 - Install Bun
@@ -23,7 +23,7 @@ curl -fsSL https://bun.sh/install | bash
 
 ```shell
 mkdir -p ~/Workspace
-git clone git@github.com:ymgn-dev/dotfiles.git ~/Workspace/dotfiles
+git clone git@github.com:ymgn-dev/dotfiles-for-wsl.git ~/Workspace/dotfiles
 ```
 
 ## Usage
