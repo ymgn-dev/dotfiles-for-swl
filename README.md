@@ -1,4 +1,4 @@
-# ymgn's dotfiles for WSL2
+# ymgn's dotfiles for WSL
 
 Dotfiles of the Ubuntu user, by the Ubuntu user, for the Ubuntu user.
 
@@ -16,7 +16,7 @@ sudo apt install -y curl git
 - Install Bun
 
 ```shell
-curl -fsSL https://bun.sh/install | bash -s "bun-v1.0.14"
+curl -fsSL https://bun.sh/install | bash
 ```
 
 - Clone this repository into your workspace directory.
