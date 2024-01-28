@@ -1,4 +1,4 @@
-# ymgn's dotfiles
+# ymgn's dotfiles for WSL2
 
 Dotfiles of the Ubuntu user, by the Ubuntu user, for the Ubuntu user.
 
