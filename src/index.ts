@@ -2,34 +2,21 @@ import {
   installAws,
   installBat,
   installCdk,
-  installCode,
   installDelta,
   installDocker,
   installEza,
   installFfmpeg,
-  installFigmaLinux,
   installFirebase,
   installFzf,
-  installGnomeShellExtensionManager,
-  installGoogleChrome,
-  installHackGenFont,
-  installInkscape,
   installInshellisense,
-  installIntelOneMonoFont,
   installLazygit,
-  installMkusb,
   installNi,
   installRye,
-  installSlack,
   installStow,
   installTerraform,
-  installThorium,
   installTmux,
   installTree,
-  installUsbCreatorGtk,
-  installVlc,
   installVolta,
-  installWezterm,
   installXsel,
 } from './installers';
 import { createSymbolicLinks, logger, prepareForInstallation, readPassword, renderEnding, renderTitle } from './utils';
@@ -67,25 +54,9 @@ const main = async () => {
 
   // GUIs / TUIs
   logger.info('\nGUIs / TUIs');
-  await installCode();
   await installDocker();
-  await installFigmaLinux();
-  await installGnomeShellExtensionManager();
-  await installGoogleChrome();
-  await installInkscape();
   await installLazygit();
-  await installMkusb();
-  await installSlack();
-  await installThorium();
   await installTmux();
-  await installUsbCreatorGtk();
-  await installVlc();
-  await installWezterm();
-
-  // Fonts
-  logger.info('\nFonts');
-  await installHackGenFont();
-  await installIntelOneMonoFont();
 
   // Symbolic link
   logger.info('\nSymbolic links');

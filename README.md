@@ -60,61 +60,12 @@ bun install
 | GUIs / TUIs                                | Details                                                                    |
 | ------------------------------------------ | -------------------------------------------------------------------------- |
 | Docker                                     | https://www.docker.com/                                                    |
-| Figma-linux                                | https://github.com/Figma-Linux/figma-linux                                 |
-| GNOME Shell Extension Manager              | https://mattjakeman.com/apps/extension-manager                             |
-| Google Chrome                              | https://www.google.com/intl/en_US/chrome/                                  |
-| Inkscape                                   | https://inkscape.org/                                                      |
 | Lazygit                                    | https://github.com/jesseduffield/lazygit                                   |
-| mkusb                                      | https://help.ubuntu.com/community/mkusb                                    |
-| Slack                                      | https://slack.com/                                                         |
-| Thorium Reader                             | https://www.edrlab.org/software/thorium-reader/                            |
 | Tmux                                       | https://github.com/tmux/tmux                                               |
-| Ubuntu startup disk creation tool for Gtk+ | https://manpages.ubuntu.com/manpages/trusty/en/man8/usb-creator-gtk.8.html |
-| Visual Studio Code                         | https://code.visualstudio.com/                                             |
-| VLC Media Player                           | https://www.videolan.org/vlc/index.en.html                                 |
-| Wezterm                                    | https://wezfurlong.org/wezterm/index.html                                  |
-
-| Fonts          | Details                                 |
-| -------------- | --------------------------------------- |
-| HackGen        | https://github.com/yuru7/HackGen        |
-| Intel One Mono | https://github.com/intel/intel-one-mono |
 
 | Other          | Details                 |
 | -------------- | ----------------------- |
 | Symbolic Links | Managing it using Stow. |
-
-## Additional Tasks
-
-### Translate the directory name into English
-
-```shell
-LANG=C xdg-user-dirs-gtk-update
-```
-
-### Extension Manager
-
-Please open the Extension Manager and enable the following extensions.
-
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/extension-manager.png)
-
-<details>
-<summary>Here are the detailed settings for Tactile.</summary>
-
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_layout1.png)
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_layout2.png)
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_layout3.png)
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_layout4.png)
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_keyboard_shortcuts.png)
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/tactile/tactile_advanced.png)
-
-</details>
-
-<details>
-<summary>Here are the detailed settings for Pano.</summary>
-
-![](https://github.com/ymgn-dev/dotfiles/blob/main/resources/pano/pano_keyboard_shortcuts.png)
-
-</details>
 
 ### Visual Studio Code Settings
 
@@ -122,4 +73,3 @@ https://github.com/ymgn-dev/vscode-settings
 
 In this repository, I am sharing my Visual Studio Code configuration files.
 You can use the same settings by overwriting your local configuration files with these.
-# dotfiles-for-wsl
