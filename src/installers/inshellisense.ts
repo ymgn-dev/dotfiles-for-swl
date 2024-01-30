@@ -3,7 +3,7 @@ import { installHelper } from '~/utils/install-helper';
 
 export const installInshellisense = async () => {
   await installHelper({
-    commandName: 'inshellisense',
+    commandName: 'is',
     requirePassword: false,
     execaAction: (execa) => {
       return execa(
