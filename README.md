@@ -51,17 +51,18 @@ bun install
 | FFmpeg        | https://ffmpeg.org/                        |
 | Firebase CLI  | https://firebase.google.com/docs/cli       |
 | fzf           | https://github.com/junegunn/fzf            |
+| GitHub CLI    | https://cli.github.com/                    |
 | inshellisense | https://github.com/microsoft/inshellisense |
 | ni            | https://github.com/antfu/ni                |
 | Terraform     | https://developer.hashicorp.com/terraform  |
 | tree          | http://mama.indstate.edu/users/ice/tree/   |
 | XSel          | https://github.com/kfish/xsel              |
 
-| GUIs / TUIs                                | Details                                                                    |
-| ------------------------------------------ | -------------------------------------------------------------------------- |
-| Docker                                     | https://www.docker.com/                                                    |
-| Lazygit                                    | https://github.com/jesseduffield/lazygit                                   |
-| Tmux                                       | https://github.com/tmux/tmux                                               |
+| GUIs / TUIs | Details                                  |
+| ----------- | ---------------------------------------- |
+| Docker      | https://www.docker.com/                  |
+| Lazygit     | https://github.com/jesseduffield/lazygit |
+| Tmux        | https://github.com/tmux/tmux             |
 
 | Other          | Details                 |
 | -------------- | ----------------------- |

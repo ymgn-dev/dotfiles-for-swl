@@ -8,6 +8,7 @@ import {
   installFfmpeg,
   installFirebase,
   installFzf,
+  installGitHubCli,
   installInshellisense,
   installLazygit,
   installNi,
@@ -46,6 +47,7 @@ const main = async () => {
   await installFfmpeg();
   await installFirebase();
   await installFzf();
+  await installGitHubCli();
   await installInshellisense();
   await installNi();
   await installTerraform();

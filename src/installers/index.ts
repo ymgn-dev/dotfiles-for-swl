@@ -12,6 +12,7 @@ import { installEza } from './eza';
 import { installFfmpeg } from './ffmpeg';
 import { installFirebase } from './firebase';
 import { installFzf } from './fzf';
+import { installGitHubCli } from './github-cli';
 import { installInshellisense } from './inshellisense';
 import { installNi } from './ni';
 import { installTerraform } from './terraform';
@@ -33,6 +34,7 @@ export {
   installFfmpeg,
   installFirebase,
   installFzf,
+  installGitHubCli,
   installInshellisense,
   installLazygit,
   installNi,
@@ -42,5 +44,5 @@ export {
   installTmux,
   installTree,
   installVolta,
-  installXsel
+  installXsel,
 };
