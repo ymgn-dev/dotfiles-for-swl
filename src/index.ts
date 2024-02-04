@@ -14,7 +14,7 @@ import {
   installNi,
   installRye,
   installStow,
-  installTerraform,
+  installTfenv,
   installTmux,
   installTree,
   installVolta,
@@ -35,6 +35,7 @@ const main = async () => {
   logger.info('\nManagers');
   await installRye();
   await installStow();
+  await installTfenv();
   await installVolta();
 
   // Commands
@@ -50,7 +51,6 @@ const main = async () => {
   await installGitHubCli();
   await installInshellisense();
   await installNi();
-  await installTerraform();
   await installTree();
   await installXsel();
 

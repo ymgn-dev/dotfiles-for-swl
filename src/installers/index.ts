@@ -15,7 +15,7 @@ import { installFzf } from './fzf';
 import { installGitHubCli } from './github-cli';
 import { installInshellisense } from './inshellisense';
 import { installNi } from './ni';
-import { installTerraform } from './terraform';
+import { installTfenv } from './tfenv';
 import { installTree } from './tree';
 import { installXsel } from './xsel';
 
@@ -40,7 +40,7 @@ export {
   installNi,
   installRye,
   installStow,
-  installTerraform,
+  installTfenv,
   installTmux,
   installTree,
   installVolta,
