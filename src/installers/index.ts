@@ -14,6 +14,7 @@ import { installFirebase } from './firebase';
 import { installFzf } from './fzf';
 import { installGitHubCli } from './github-cli';
 import { installInshellisense } from './inshellisense';
+import { installJq } from './jq';
 import { installNi } from './ni';
 import { installTfenv } from './tfenv';
 import { installTree } from './tree';
@@ -36,6 +37,7 @@ export {
   installFzf,
   installGitHubCli,
   installInshellisense,
+  installJq,
   installLazygit,
   installNi,
   installRye,

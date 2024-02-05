@@ -10,6 +10,7 @@ import {
   installFzf,
   installGitHubCli,
   installInshellisense,
+  installJq,
   installLazygit,
   installNi,
   installRye,
@@ -50,6 +51,7 @@ const main = async () => {
   await installFzf();
   await installGitHubCli();
   await installInshellisense();
+  await installJq();
   await installNi();
   await installTree();
   await installXsel();
