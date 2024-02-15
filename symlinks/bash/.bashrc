@@ -121,12 +121,10 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias cp='cp -i'
 alias g='lazygit'
+alias tf='terraform'
 
 [ -e "$HOME/.rye/env" ] && source "$HOME/.rye/env"
 
 [ -f ~/.inshellisense/key-bindings.bash ] && source ~/.inshellisense/key-bindings.bash
 
 [ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
-
-# Turso
-export PATH="/home/ymgn/.turso:$PATH"
