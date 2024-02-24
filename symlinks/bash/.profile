@@ -32,6 +32,8 @@ export PATH="$HOME/.tfenv/bin:$PATH"
 # volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+# https://github.com/volta-cli/volta/issues/1007
+unset _VOLTA_TOOL_RECURSION in each
 export VOLTA_FEATURE_PNPM=1
 
 # bun
