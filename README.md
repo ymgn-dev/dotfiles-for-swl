@@ -69,6 +69,25 @@ bun install
 | -------------- | ----------------------- |
 | Symbolic Links | Managing it using Stow. |
 
+Also, please run the following command in your terminal to install the required applications:
+
+```plaintext
+winget install --id Discord.Discord.Canary
+winget install --id e2eSoft.iVCam
+winget install --id EDRLab.Thorium
+winget install --id Figma.Figma
+winget install --id Fork.Fork
+winget install --id Google.Chrome
+winget install --id Microsoft.PowerShell
+winget install --id Microsoft.PowerToys
+winget install --id Microsoft.VisualStudioCode
+winget install --id Microsoft.WindowsTerminal
+winget install --id Notion.Notion
+winget install --id SlackTechnologies.Slack
+winget install --id Valve.Steam
+winget install --id LINE.LINE
+```
+
 ### Visual Studio Code Settings
 
 https://github.com/ymgn-dev/vscode-settings
