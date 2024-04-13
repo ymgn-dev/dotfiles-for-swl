@@ -4,9 +4,7 @@ import { installStow } from './stow';
 import { installVolta } from './volta';
 
 // Commands
-import { installAws } from './aws';
 import { installBat } from './bat';
-import { installCdk } from './cdk';
 import { installDelta } from './delta';
 import { installEza } from './eza';
 import { installFfmpeg } from './ffmpeg';
@@ -16,7 +14,6 @@ import { installGitHubCli } from './github-cli';
 import { installInshellisense } from './inshellisense';
 import { installJq } from './jq';
 import { installNi } from './ni';
-import { installTfenv } from './tfenv';
 import { installTree } from './tree';
 import { installXsel } from './xsel';
 
@@ -26,9 +23,7 @@ import { installLazygit } from './lazygit';
 import { installTmux } from './tmux';
 
 export {
-  installAws,
   installBat,
-  installCdk,
   installDelta,
   installDocker,
   installEza,
@@ -42,7 +37,6 @@ export {
   installNi,
   installRye,
   installStow,
-  installTfenv,
   installTmux,
   installTree,
   installVolta,

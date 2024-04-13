@@ -39,13 +39,10 @@ bun install
 | -------- | ---------------------------------- |
 | GNU Stow | https://www.gnu.org/software/stow/ |
 | Rye      | https://rye-up.com/                |
-| tfenv    | https://github.com/tfutils/tfenv   |
 | Volta    | https://volta.sh/                  |
 
 | Commands      | Details                                    |
 | ------------- | ------------------------------------------ |
-| AWS CLI       | https://aws.amazon.com/cli/?nc1=h_ls       |
-| AWS CDK       | https://aws.amazon.com/cdk/?nc1=h_ls       |
 | bat           | https://github.com/sharkdp/bat             |
 | delta         | https://github.com/dandavison/delta        |
 | eza           | https://github.com/eza-community/eza       |

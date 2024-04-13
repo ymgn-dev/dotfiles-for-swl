@@ -121,7 +121,6 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias cp='cp -i'
 alias g='lazygit'
-alias tf='terraform'
 
 [ -e "$HOME/.rye/env" ] && source "$HOME/.rye/env"
 

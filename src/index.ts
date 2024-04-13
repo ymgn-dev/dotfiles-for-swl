@@ -1,7 +1,5 @@
 import {
-  installAws,
   installBat,
-  installCdk,
   installDelta,
   installDocker,
   installEza,
@@ -15,7 +13,6 @@ import {
   installNi,
   installRye,
   installStow,
-  installTfenv,
   installTmux,
   installTree,
   installVolta,
@@ -36,14 +33,11 @@ const main = async () => {
   logger.info('\nManagers');
   await installRye();
   await installStow();
-  await installTfenv();
   await installVolta();
 
   // Commands
   logger.info('\nCommands');
-  await installAws();
   await installBat();
-  await installCdk();
   await installDelta();
   await installEza();
   await installFfmpeg();
