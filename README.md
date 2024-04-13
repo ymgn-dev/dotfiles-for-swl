@@ -30,7 +30,7 @@ git clone git@github.com:ymgn-dev/dotfiles-for-wsl.git ~/Workspace/dotfiles
 
 ```shell
 cd ~/Workspace/dotfiles
-bun install
+bun run execute
 ```
 
 ## Installation Overview
