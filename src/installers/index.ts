@@ -14,6 +14,7 @@ import { installGitHubCli } from './github-cli';
 import { installInshellisense } from './inshellisense';
 import { installJq } from './jq';
 import { installNi } from './ni';
+import { installSqlc } from './sqlc';
 import { installTree } from './tree';
 import { installXsel } from './xsel';
 
@@ -36,6 +37,7 @@ export {
   installLazygit,
   installNi,
   installRye,
+  installSqlc,
   installStow,
   installTmux,
   installTree,

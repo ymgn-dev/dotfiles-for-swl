@@ -12,6 +12,7 @@ import {
   installLazygit,
   installNi,
   installRye,
+  installSqlc,
   installStow,
   installTmux,
   installTree,
@@ -47,6 +48,7 @@ const main = async () => {
   await installInshellisense();
   await installJq();
   await installNi();
+  await installSqlc();
   await installTree();
   await installXsel();
 

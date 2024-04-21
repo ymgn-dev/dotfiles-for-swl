@@ -53,6 +53,7 @@ bun run execute
 | inshellisense | https://github.com/microsoft/inshellisense |
 | jq            | https://jqlang.github.io/jq                |
 | ni            | https://github.com/antfu/ni                |
+| sqlc          | https://docs.sqlc.dev/en/latest/index.html |
 | tree          | http://mama.indstate.edu/users/ice/tree/   |
 | XSel          | https://github.com/kfish/xsel              |
 
