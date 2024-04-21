@@ -75,7 +75,9 @@ winget install --id e2eSoft.iVCam
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
 winget install --id Fork.Fork
+winget install --id GodotEngine.GodotEngine
 winget install --id Google.Chrome
+winget install --id Inkscape.Inkscape
 winget install --id Microsoft.PowerShell
 winget install --id Microsoft.PowerToys
 winget install --id Microsoft.VisualStudioCode
