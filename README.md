@@ -75,7 +75,6 @@ winget install --id e2eSoft.iVCam
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
 winget install --id Fork.Fork
-winget install --id GodotEngine.GodotEngine
 winget install --id Google.Chrome
 winget install --id Inkscape.Inkscape
 winget install --id Microsoft.PowerShell
@@ -84,6 +83,7 @@ winget install --id Microsoft.VisualStudioCode
 winget install --id Microsoft.WindowsTerminal
 winget install --id Notion.Notion
 winget install --id SlackTechnologies.Slack
+winget install --id TablePlus.TablePlus
 winget install --id Valve.Steam
 winget install --id LINE.LINE
 ```
