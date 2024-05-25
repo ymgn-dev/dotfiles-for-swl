@@ -71,6 +71,7 @@ Also, please run the following command in your terminal to install the required 
 
 ```plaintext
 winget install --id Amazon.Kindle
+winget install --id Bitwarden.Bitwarden
 winget install --id Discord.Discord.Canary
 winget install --id e2eSoft.iVCam
 winget install --id EDRLab.Thorium
