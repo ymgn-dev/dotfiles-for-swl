@@ -7,7 +7,6 @@ import {
   installFirebase,
   installFzf,
   installGitHubCli,
-  installInshellisense,
   installJq,
   installLazygit,
   installNi,
@@ -45,7 +44,6 @@ const main = async () => {
   await installFirebase();
   await installFzf();
   await installGitHubCli();
-  await installInshellisense();
   await installJq();
   await installNi();
   await installSqlc();

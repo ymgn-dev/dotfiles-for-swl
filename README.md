@@ -50,7 +50,6 @@ bun run execute
 | Firebase CLI  | https://firebase.google.com/docs/cli       |
 | fzf           | https://github.com/junegunn/fzf            |
 | GitHub CLI    | https://cli.github.com/                    |
-| inshellisense | https://github.com/microsoft/inshellisense |
 | jq            | https://jqlang.github.io/jq                |
 | ni            | https://github.com/antfu/ni                |
 | sqlc          | https://docs.sqlc.dev/en/latest/index.html |
