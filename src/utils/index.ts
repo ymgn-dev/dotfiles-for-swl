@@ -8,4 +8,14 @@ import { readPassword } from './read-password';
 import { renderEnding } from './render-ending';
 import { renderTitle } from './render-title';
 
-export { existsCommand, installHelper, logger, prepareForInstallation, readPassword, renderTitle, spinner, createSymbolicLinks, renderEnding };
+export {
+  createSymbolicLinks,
+  existsCommand,
+  installHelper,
+  logger,
+  prepareForInstallation,
+  readPassword,
+  renderEnding,
+  renderTitle,
+  spinner,
+};

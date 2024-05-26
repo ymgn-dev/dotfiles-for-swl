@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { $, ExecaChildProcess, execa } from 'execa';
+import { $, execa, type ExecaChildProcess } from 'execa';
 import { existsCommand } from './exists-command';
 import { logger } from './logger';
 import { password } from './read-password';
@@ -13,7 +13,12 @@ type InstallHelperOptions = {
   overrideExistsMethod?: () => Promise<boolean>;
 };
 
-export const installHelper = async ({ commandName, requirePassword = true, execaAction, overrideExistsMethod }: InstallHelperOptions) => {
+export const installHelper = async ({
+  commandName,
+  requirePassword = true,
+  execaAction,
+  overrideExistsMethod,
+}: InstallHelperOptions) => {
   const exists = overrideExistsMethod ? await overrideExistsMethod() : await existsCommand(commandName);
   if (exists) {
     logger.success(`✔  ${commandName} is already installed.`);

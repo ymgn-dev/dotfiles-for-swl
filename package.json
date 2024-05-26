@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "execute": "bun run src/index.ts"
+    "execute": "bun run src/index.ts",
+    "format": "bunx @biomejs/biome format --write ./src"
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.4",

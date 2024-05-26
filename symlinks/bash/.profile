@@ -35,7 +35,7 @@ export VOLTA_FEATURE_PNPM=1
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH=$BUN_INSTALL/bin:$PATH
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # fzf
-export FZF_DEFAULT_OPTS='--height 50% --reverse'
+export FZF_DEFAULT_OPTS="--height 50% --reverse"

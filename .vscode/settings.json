@@ -8,13 +8,13 @@
   "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-
   "cSpell.words": [
     "antfu",
     "armhf",
     "awscliv",
     "biomejs",
     "buildx",
+    "bunx",
     "dearmor",
     "execa",
     "gierens",

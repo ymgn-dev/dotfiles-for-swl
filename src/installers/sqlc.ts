@@ -4,7 +4,7 @@ export const installSqlc = async () => {
   await installHelper({
     commandName: 'sqlc',
     execaAction: (execa) => {
-      return execa('sudo -S snap install -y sqlc', { shell: true });
+      return execa('sudo -S snap install sqlc', { shell: true });
     },
   });
 };
