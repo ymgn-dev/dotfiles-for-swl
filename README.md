@@ -38,23 +38,20 @@ bun run execute
 | Managers | Details                            |
 | -------- | ---------------------------------- |
 | GNU Stow | https://www.gnu.org/software/stow/ |
-| Rye      | https://rye-up.com/                |
-| Volta    | https://volta.sh/                  |
 
-| Commands      | Details                                    |
-| ------------- | ------------------------------------------ |
-| bat           | https://github.com/sharkdp/bat             |
-| delta         | https://github.com/dandavison/delta        |
-| eza           | https://github.com/eza-community/eza       |
-| FFmpeg        | https://ffmpeg.org/                        |
-| Firebase CLI  | https://firebase.google.com/docs/cli       |
-| fzf           | https://github.com/junegunn/fzf            |
-| GitHub CLI    | https://cli.github.com/                    |
-| jq            | https://jqlang.github.io/jq                |
-| ni            | https://github.com/antfu/ni                |
-| sqlc          | https://docs.sqlc.dev/en/latest/index.html |
-| tree          | http://mama.indstate.edu/users/ice/tree/   |
-| XSel          | https://github.com/kfish/xsel              |
+| Commands     | Details                                    |
+| ------------ | ------------------------------------------ |
+| bat          | https://github.com/sharkdp/bat             |
+| delta        | https://github.com/dandavison/delta        |
+| eza          | https://github.com/eza-community/eza       |
+| FFmpeg       | https://ffmpeg.org/                        |
+| Firebase CLI | https://firebase.google.com/docs/cli       |
+| fzf          | https://github.com/junegunn/fzf            |
+| GitHub CLI   | https://cli.github.com/                    |
+| jq           | https://jqlang.github.io/jq                |
+| sqlc         | https://docs.sqlc.dev/en/latest/index.html |
+| tree         | http://mama.indstate.edu/users/ice/tree/   |
+| XSel         | https://github.com/kfish/xsel              |
 
 | GUIs / TUIs | Details                                  |
 | ----------- | ---------------------------------------- |

@@ -9,13 +9,10 @@ import {
   installGitHubCli,
   installJq,
   installLazygit,
-  installNi,
-  installRye,
   installSqlc,
   installStow,
   installTmux,
   installTree,
-  installVolta,
   installXsel,
 } from './installers';
 import { createSymbolicLinks, logger, prepareForInstallation, readPassword, renderEnding, renderTitle } from './utils';
@@ -31,9 +28,7 @@ const main = async () => {
 
   // Managers
   logger.info('\nManagers');
-  await installRye();
   await installStow();
-  await installVolta();
 
   // Commands
   logger.info('\nCommands');
@@ -45,7 +40,6 @@ const main = async () => {
   await installFzf();
   await installGitHubCli();
   await installJq();
-  await installNi();
   await installSqlc();
   await installTree();
   await installXsel();
