@@ -32,3 +32,7 @@ export FZF_DEFAULT_OPTS="--height 50% --reverse"
 # proto
 export PROTO_HOME="$HOME/.proto"
 export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH"
+
+# flyctl
+export FLYCTL_INSTALL="$HOME/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
