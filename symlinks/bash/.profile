@@ -36,3 +36,6 @@ export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH"
 # flyctl
 export FLYCTL_INSTALL="$HOME/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+# Bun
+export PATH="$HOME/.bun/bin:$PATH"

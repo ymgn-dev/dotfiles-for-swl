@@ -115,10 +115,15 @@ if ! shopt -oq posix; then
     fi
 fi
 
+[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
+
 alias cat=batcat
 alias ls="eza -1 --colour always --icons --hyperlink"
 alias mv='mv -i'
 alias rm='rm -i'
 alias cp='cp -i'
 
-[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
+alias dcm='docker compose'
+alias dcn='docker container'
+alias di='docker image'
+alias dn='docker network'
