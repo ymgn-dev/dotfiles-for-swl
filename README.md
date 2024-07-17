@@ -69,7 +69,7 @@ Also, please run the following command in your terminal to install the required 
 winget install --id Amazon.Kindle
 winget install --id Bitwarden.Bitwarden
 winget install --id Discord.Discord.Canary
-winget install --id e2eSoft.iVCam
+winget install --id Docker.DockerDesktop
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
 winget install --id Fork.Fork
