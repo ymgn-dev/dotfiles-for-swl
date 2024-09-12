@@ -84,6 +84,7 @@ winget install --id SlackTechnologies.Slack
 winget install --id TablePlus.TablePlus
 winget install --id Valve.Steam
 winget install --id LINE.LINE
+winget install fancywm
 ```
 
 ### Visual Studio Code Settings
