@@ -1,7 +1,6 @@
 import {
   installBat,
   installDelta,
-  installDocker,
   installEza,
   installFfmpeg,
   installFirebase,
@@ -46,7 +45,6 @@ const main = async () => {
 
   // GUIs / TUIs
   logger.info('\nGUIs / TUIs');
-  await installDocker();
   await installLazygit();
   await installTmux();
 

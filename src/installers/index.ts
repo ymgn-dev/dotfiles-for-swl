@@ -15,14 +15,12 @@ import { installTree } from './tree';
 import { installXsel } from './xsel';
 
 // GUIs / TUIs
-import { installDocker } from './docker';
 import { installLazygit } from './lazygit';
 import { installTmux } from './tmux';
 
 export {
   installBat,
   installDelta,
-  installDocker,
   installEza,
   installFfmpeg,
   installFirebase,
