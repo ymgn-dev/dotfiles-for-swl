@@ -76,6 +76,7 @@ winget install --id Google.Chrome
 winget install --id Inkscape.Inkscape
 winget install --id Microsoft.PowerShell
 winget install --id Microsoft.PowerToys
+winget install --id Microsoft.VisualStudio.2022.Community
 winget install --id Microsoft.VisualStudioCode
 winget install --id Microsoft.WindowsTerminal
 winget install --id Notion.Notion
