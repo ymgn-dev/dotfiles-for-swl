@@ -55,7 +55,6 @@ bun run execute
 
 | GUIs / TUIs | Details                                  |
 | ----------- | ---------------------------------------- |
-| Docker      | https://www.docker.com/                  |
 | Lazygit     | https://github.com/jesseduffield/lazygit |
 | Tmux        | https://github.com/tmux/tmux             |
 
