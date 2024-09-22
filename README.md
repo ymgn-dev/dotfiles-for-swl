@@ -82,6 +82,7 @@ winget install --id Microsoft.WindowsTerminal
 winget install --id Notion.Notion
 winget install --id SlackTechnologies.Slack
 winget install --id TablePlus.TablePlus
+winget install --id Unity.UnityHub
 winget install --id Valve.Steam
 winget install fancywm
 ```
