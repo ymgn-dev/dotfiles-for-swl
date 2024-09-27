@@ -51,6 +51,7 @@ bun run execute
 | jq           | https://jqlang.github.io/jq                |
 | sqlc         | https://docs.sqlc.dev/en/latest/index.html |
 | tree         | http://mama.indstate.edu/users/ice/tree/   |
+| Volta        | https://volta.sh/                          |
 | XSel         | https://github.com/kfish/xsel              |
 
 | GUIs / TUIs | Details                                  |

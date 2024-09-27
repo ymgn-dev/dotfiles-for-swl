@@ -12,6 +12,7 @@ import {
   installStow,
   installTmux,
   installTree,
+  installVolta,
   installXsel,
 } from './installers';
 import { createSymbolicLinks, logger, prepareForInstallation, readPassword, renderEnding, renderTitle } from './utils';
@@ -41,6 +42,7 @@ const main = async () => {
   await installJq();
   await installSqlc();
   await installTree();
+  await installVolta();
   await installXsel();
 
   // GUIs / TUIs

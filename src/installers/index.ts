@@ -12,6 +12,7 @@ import { installGitHubCli } from './github-cli';
 import { installJq } from './jq';
 import { installSqlc } from './sqlc';
 import { installTree } from './tree';
+import { installVolta } from './volta';
 import { installXsel } from './xsel';
 
 // GUIs / TUIs
@@ -32,5 +33,6 @@ export {
   installStow,
   installTmux,
   installTree,
+  installVolta,
   installXsel,
 };
